@@ -1,5 +1,5 @@
 const express = require("express");
-const carsRouter = require("..cars/carsRouter");
+const carsRouter = require("../cars/carsRouter");
 
 const db = require("../data/config");
 

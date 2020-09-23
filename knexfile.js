@@ -1,13 +1,14 @@
 module.exports = {
-    cient: 'sqlite3',
+    //RDBMS
+    client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
-        filename: "./data/database_file.db3", 
+    filename: "./data/database_file.db3",
     },
     migrations: {
-        directory: './data/migrations'
-    }, 
+    directory: './data/mig/rations'
+    },
     seeds: {
-        directory: './seeds'
+    directory: './seeds'
     }
-}
+    }
