@@ -6,7 +6,7 @@ exports.up = async function(knex) {
         table.text("color").notNull();
         table.text("make").notNull();
         table.text("model").notNull();
-        table.boolean("ugly").notNull().defaultTo(true);
+        table.boolean("pretty").notNull().defaultTo(true);
     })
 };
 exports.down = async function(knex) {

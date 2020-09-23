@@ -1,14 +1,16 @@
+// Update with your config settings.
+
 module.exports = {
-    //RDBMS
     client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
-    filename: "./data/database_file.db3",
+      filename: './data/carDealer.db3'
     },
     migrations: {
-    directory: './data/mig/rations'
-    },
+      tableName: './data/migrations'
+    }, 
     seeds: {
-    directory: './seeds'
+        directory: './seeds'
     }
-    }
+  
+};
